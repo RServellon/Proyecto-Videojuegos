@@ -9,6 +9,9 @@
     <sprite>sprites\sprite_obstacle01</sprite>
     <sprite>sprites\sprite_player</sprite>
     <sprite>sprites\sprite_obstacle02</sprite>
+    <sprite>sprites\sprite_star</sprite>
+    <sprite>sprites\sprite_playerPlus</sprite>
+    <sprite>sprites\sprite_playerChange</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background_level01</background>
@@ -16,12 +19,14 @@
     <background>background\background_level03</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\object_spawner</object>
     <object>objects\object_obstacle01</object>
     <object>objects\object_player</object>
+    <object>objects\object_playerPlus</object>
+    <object>objects\object_playerPlusChange</object>
     <object>objects\object_obstacle02</object>
+    <object>objects\object_star</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_level01</room>
