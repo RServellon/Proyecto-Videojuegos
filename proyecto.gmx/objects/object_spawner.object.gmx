@@ -40,11 +40,95 @@ if (viewPosX + view_wview[0] &gt;= room_width)
 {
     // Detener la vista en el límite derecho
     viewPosX = room_width - view_wview[0];
+    
+    // prueba, cuando se pongan enemigos eliminar
+    var nextRoom = room + 1; // Obtener el índice del siguiente room
+    if (room_exists(nextRoom)) {
+        if (keyboard_check_pressed(vk_enter)) {
+            room_goto_next();
+        }
+    }
+    
+    
+    
+     // prueba, cuando se pongan enemigos eliminar
 }
 
 // Actualizar la posición de la vista
 view_xview[0] = viewPosX;
 view_yview[0] = viewPosY;
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="5">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (global.background_music != -1) {
+    audio_stop_sound(global.background_music);
+    global.background_music = -1; // Restablece la variable a su valor por defecto
+}
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>var currentRoom = room;
+var currentRoomName = room_get_name(currentRoom);
+global.background_music = -1;
+
+// Evento Step del objeto
+switch (currentRoomName) {
+    case "room_level01":
+        global.background_music = audio_play_sound(sound_backgroundLoop01, 1, true);
+        break;
+    case "room_level02":
+        global.background_music = audio_play_sound(sound_backgroundLoop02, 1, true);
+        break;
+    case "room_level03":
+        global.background_music = audio_play_sound(sound_backgroundLoop03, 1, true);
+        break;
+    // Agrega más casos según los sonidos de fondo que desees reproducir
+    default:
+        // Caso por defecto en caso de que el valor de backgroundSoundIndex no coincida con ningún caso anterior
+        global.background_music = audio_play_sound(sound_backgroundLoop01, 1, true);
+        break;
+}
+
 
 </string>
           </argument>
@@ -69,6 +153,7 @@ view_yview[0] = viewPosY;
           <argument>
             <kind>1</kind>
             <string>window_set_fullscreen(true);
+
 
 </string>
           </argument>
