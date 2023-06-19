@@ -150,6 +150,7 @@ view_yview[0] = viewPosY;</code>
     <instance objName="object_obstacle01" x="2816" y="288" name="inst_F591C063" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_obstacle01" x="2848" y="384" name="inst_4FDC6D17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_obstacle01" x="2912" y="256" name="inst_743412D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_enemy03" x="3584" y="256" name="inst_A601D111" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

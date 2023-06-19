@@ -13,6 +13,7 @@
     <sound>sound\sound_hit</sound>
   </sounds>
   <sprites name="sprites">
+    <sprite>sprites\sprite_laser</sprite>
     <sprite>sprites\sprite_obstacle01</sprite>
     <sprite>sprites\sprite_player</sprite>
     <sprite>sprites\sprite_obstacle02</sprite>
@@ -20,6 +21,12 @@
     <sprite>sprites\sprite_playerPlus</sprite>
     <sprite>sprites\sprite_playerChange</sprite>
     <sprite>sprites\sprite_playerBullet</sprite>
+    <sprite>sprites\sprite_life</sprite>
+    <sprite>sprites\sprite_enemy01</sprite>
+    <sprite>sprites\sprite_ballEnemy</sprite>
+    <sprite>sprites\sprite_enemy02</sprite>
+    <sprite>sprites\sprite_enemy03</sprite>
+    <sprite>sprites\sprite_objEnemy03</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background_level01</background>
@@ -36,6 +43,13 @@
     <object>objects\object_obstacle02</object>
     <object>objects\object_star</object>
     <object>objects\object_playerBullet</object>
+    <object>objects\object_score</object>
+    <object>objects\object_enemy01</object>
+    <object>objects\obj_BallEnemy01</object>
+    <object>objects\object_enemy02</object>
+    <object>objects\object_laser</object>
+    <object>objects\object_enemy03</object>
+    <object>objects\object_objEnemy03</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_level01</room>
