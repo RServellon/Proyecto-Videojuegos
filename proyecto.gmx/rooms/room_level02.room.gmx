@@ -166,6 +166,7 @@ view_yview[0] = viewPosY;</code>
     <instance objName="object_star" x="2560" y="288" name="inst_FA18DC84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_star" x="2560" y="448" name="inst_7C7C14E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_score" x="64" y="32" name="inst_31490FB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_reset" x="3616" y="0" name="inst_7DFEB2D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

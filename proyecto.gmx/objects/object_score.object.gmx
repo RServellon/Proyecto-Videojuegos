@@ -137,11 +137,11 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>1</string>
+            <string>1 + view_xview</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>280</string>
+            <string>280 + view_yview</string>
           </argument>
         </arguments>
       </action>
@@ -155,7 +155,7 @@
         <exetype>1</exetype>
         <functionname>action_sprite_set</functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>object_reset</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -166,6 +166,30 @@
           <argument>
             <kind>0</kind>
             <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>object_spawner</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>viewSpeed</string>
           </argument>
           <argument>
             <kind>0</kind>

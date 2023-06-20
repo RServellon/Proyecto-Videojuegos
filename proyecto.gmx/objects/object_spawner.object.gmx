@@ -32,34 +32,34 @@ var viewPosY = view_yview[0];
 // Establecer la velocidad de desplazamiento
 var viewSpeed = 10;
 
-//Establecer variable para ver si quedan enemigos para pasar al siguiente nivel
+// Establecer variable para ver si quedan enemigos para pasar al siguiente nivel
 var numeroEnemigos = instance_number(object_enemy01) + instance_number(object_enemy02) + instance_number(object_enemy03);
 
-// Mover la vista hacia la derecha
-viewPosX += viewSpeed;
+// Verificar si el juego está en modo "game over"
+if (!global.gameover) {
+    // Mover la vista hacia la derecha
+    viewPosX += viewSpeed;
 
-// Verificar si la vista ha alcanzado el límite derecho de la habitación
-if (viewPosX + view_wview[0] &gt;= room_width)
-{
-    // Detener la vista en el límite derecho
-    viewPosX = room_width - view_wview[0];
+    // Verificar si la vista ha alcanzado el límite derecho de la habitación
+    if (viewPosX + view_wview[0] &gt;= room_width) {
+        // Detener la vista en el límite derecho
+        viewPosX = room_width - view_wview[0];
 
-    // prueba
-    if(numeroEnemigos == 0){
-     var nextRoom = room + 1; // Obtener el índice del siguiente room
-        if (room_exists(nextRoom)) {
-            if (keyboard_check_pressed(vk_enter)) {
-                room_goto_next();
+        // Verificar si no quedan enemigos
+        if (numeroEnemigos == 0) {
+            var nextRoom = room + 1; // Obtener el índice del siguiente room
+            if (room_exists(nextRoom)) {
+                if (keyboard_check_pressed(vk_enter)) {
+                    room_goto_next();
+                }
             }
         }
     }
-   
 }
 
 // Actualizar la posición de la vista
 view_xview[0] = viewPosX;
 view_yview[0] = viewPosY;
-
 </string>
           </argument>
         </arguments>
