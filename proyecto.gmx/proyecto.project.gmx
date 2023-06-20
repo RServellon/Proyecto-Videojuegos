@@ -28,6 +28,7 @@
     <sprite>sprites\sprite_enemy02</sprite>
     <sprite>sprites\sprite_enemy03</sprite>
     <sprite>sprites\sprite_objEnemy03</sprite>
+    <sprite>sprites\sprite_playerPlusBullet</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background_level01</background>
@@ -44,6 +45,7 @@
     <object>objects\object_obstacle02</object>
     <object>objects\object_star</object>
     <object>objects\object_playerBullet</object>
+    <object>objects\object_playerPlusBullet</object>
     <object>objects\object_score</object>
     <object>objects\object_enemy01</object>
     <object>objects\obj_BallEnemy01</object>

@@ -156,6 +156,16 @@ view_yview[0] = viewPosY;</code>
     <instance objName="object_enemy02" x="3552" y="32" name="inst_C143B5AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_enemy02" x="3328" y="448" name="inst_25CA6510" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_enemy02" x="2816" y="64" name="inst_1D0EBD29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_star" x="768" y="64" name="inst_8C6956A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_star" x="768" y="416" name="inst_F398FD84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_star" x="992" y="256" name="inst_B96EF927" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_star" x="1536" y="256" name="inst_0DF396D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_star" x="1536" y="32" name="inst_5E985990" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_star" x="1536" y="448" name="inst_47EFB02B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_star" x="2560" y="64" name="inst_EFE9868B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_star" x="2560" y="288" name="inst_FA18DC84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_star" x="2560" y="448" name="inst_7C7C14E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_score" x="64" y="32" name="inst_31490FB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

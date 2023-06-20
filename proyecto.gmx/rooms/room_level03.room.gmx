@@ -149,6 +149,15 @@ view_yview[0] = viewPosY;</code>
     <instance objName="object_obstacle01" x="2912" y="256" name="inst_743412D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_enemy03" x="3584" y="96" name="inst_165EC266" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_enemy03" x="3136" y="416" name="inst_6C68A3BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_star" x="800" y="32" name="inst_78560A29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_star" x="800" y="256" name="inst_E33552A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_star" x="800" y="448" name="inst_160A6FB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_star" x="1792" y="256" name="inst_8A63AE0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_star" x="1952" y="32" name="inst_9C59D470" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_star" x="1952" y="416" name="inst_8E088B8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_star" x="2528" y="96" name="inst_E7DC8956" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_star" x="2528" y="384" name="inst_757D38C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_score" x="96" y="64" name="inst_A63A25D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
