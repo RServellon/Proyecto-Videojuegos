@@ -29,6 +29,8 @@
     <sprite>sprites\sprite_enemy03</sprite>
     <sprite>sprites\sprite_objEnemy03</sprite>
     <sprite>sprites\sprite_playerPlusBullet</sprite>
+    <sprite>sprites\sprite_gamewon</sprite>
+    <sprite>sprites\sprit_nextLevel</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background_level01</background>
@@ -54,6 +56,8 @@
     <object>objects\object_enemy03</object>
     <object>objects\object_objEnemy03</object>
     <object>objects\object_reset</object>
+    <object>objects\object_gamewon</object>
+    <object>objects\object_nextLevel</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_level01</room>
