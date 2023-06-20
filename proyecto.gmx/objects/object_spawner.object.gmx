@@ -130,6 +130,7 @@ view_yview[0] = viewPosY;
             <string>var currentRoom = room;
 var currentRoomName = room_get_name(currentRoom);
 global.victory = false;
+global.gameover = false;
 global.background_music = -1;
 
 // Evento Step del objeto
